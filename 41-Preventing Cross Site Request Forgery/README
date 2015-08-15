@@ -1,0 +1,7 @@
+In this folder:
+
+profiler: The profile displayer app with admin section from Chapter 6's recipe "Making an Express Web App",
+          updated to be secured with HTTPS and integrated with CSRF protection middleware.
+
+profiler_auto_csrf_input: an alteration to profiler that uses a custom Jade compiler
+                          to automatically include hidden input csrf tokens in forms

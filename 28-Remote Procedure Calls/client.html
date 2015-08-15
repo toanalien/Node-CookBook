@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body>
+<div id="output"></div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost:8080'),
+    output = document.getElementById('output');
+    
+  function square(num) {
+    output.innerHTML = "<div>" + num + " x " + num + " is " + (num * num) + "</div>";
+  }
+  
+  socket.on('connect', function () {  
+    socket.emit('give me a number', square);
+      
+    socket.on('give me a sentence', function (cb) {
+      cb('Ok, here is a sentence.');
+    });
+    
+
+    socket.on('message', function (msg) {
+      output.innerHTML += '<div>Recieved: ' + msg + '</div>';
+    });
+  });
+    
+</script>
+</body>
+</html>

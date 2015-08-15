@@ -1,0 +1,13 @@
+In this folder:
+
+server.js: a WebSocket server implementation using the websocket module
+
+client.html: an HTML file that uses the Javscript WebSocket api to interface with server.js
+
+moz_support_server.js: exactly as server.js but loads moz_support_client.html to browser
+
+moz_support_client.html: as client.html but with one line of added to code to support
+                         the Moz WebSocket vendor prefix of Firefox browsers
+
+client.js: Using client capabilities websocket module to interface with server.js
+

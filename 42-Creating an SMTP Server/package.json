@@ -1,0 +1,11 @@
+{
+  "name": "NCB2",
+  "version": "2.0.0",
+  "author": "David Mark Clements",
+  "readmeFilename": "README",
+  "private": true,
+  "dependencies": {
+    "simplesmtp": "~0.3.10",
+    "nodemailer": "~0.5.2"
+  }
+}

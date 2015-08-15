@@ -1,0 +1,19 @@
+if user
+ form(method='post', action='/')
+   input(name="_method", type="hidden", value="DELETE")
+   p Hello #{user.name}! 
+    a(href='javascript:', onClick='forms[0].submit()') [logout]
+
+else 
+  p Please log in
+  form(method='post', action='/')
+    fieldset
+      legend Login
+      p
+        label(for="user[name]") Username:
+        input(name="user[name]")
+      p
+        label(for="user[pwd]") Password:
+        input(type="password", name="user[pwd]")
+          
+      input(type="submit")

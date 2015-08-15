@@ -1,0 +1,28 @@
+<form id=frm>
+  <input type=file id=userfile name=userfile><br>
+  <input type=submit>
+</form>
+<script>
+//this will only work in supporting browsers (e.g. Chrome)
+//and is simply a prototype proof of concept
+(function () { 
+  var userfile = document.getElementById('userfile'),
+    frm = document.getElementById('frm'),
+    file;
+  userfile.addEventListener('change', function () {
+    file = this.files[0];
+  });
+  frm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (file) {
+      var xhr = new XMLHttpRequest();
+      xhr.file = file;
+      xhr.open('put', 'http://localhost:8080', true);
+      xhr.setRequestHeader("x-uploadedfilename", file.fileName);
+      xhr.send(file);      
+      file = '';
+      frm.reset();
+    }
+  });
+}());
+</script>

@@ -1,0 +1,12 @@
+In this folder:
+
+server.js: demonstrating Socket.io's ability to execute callbacks on the server side
+           from the client side, and vice versa.
+           
+client.html: counterpart to server.js
+
+now_server.js: demonstrating NowJS' ability to share functions between server and client
+
+now_client.html: counterpart to now_server.js
+
+

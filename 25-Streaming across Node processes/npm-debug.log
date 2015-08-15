@@ -1,0 +1,180 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'buffertools' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink D:\nodejs\\node.exe
+5 verbose cache add [ 'buffertools', null ]
+6 verbose cache add name=undefined spec="buffertools" args=["buffertools",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'buffertools',
+7 verbose parsed url   path: 'buffertools',
+7 verbose parsed url   href: 'buffertools' }
+8 silly lockFile 01c6fc88-buffertools buffertools
+9 verbose lock buffertools C:\Users\rikitas\AppData\Roaming\npm-cache\01c6fc88-buffertools.lock
+10 silly lockFile 01c6fc88-buffertools buffertools
+11 silly lockFile 01c6fc88-buffertools buffertools
+12 verbose addNamed [ 'buffertools', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 192bcd32-buffertools buffertools@
+15 verbose lock buffertools@ C:\Users\rikitas\AppData\Roaming\npm-cache\192bcd32-buffertools.lock
+16 silly addNameRange { name: 'buffertools', range: '*', hasData: false }
+17 verbose url raw buffertools
+18 verbose url resolving [ 'https://registry.npmjs.org/', './buffertools' ]
+19 verbose url resolved https://registry.npmjs.org/buffertools
+20 info trying registry request attempt 1 at 18:21:25
+21 verbose etag "9C656K6ZYR4L99S2WBXUA951A"
+22 http GET https://registry.npmjs.org/buffertools
+23 http 304 https://registry.npmjs.org/buffertools
+24 silly registry.get cb [ 304,
+24 silly registry.get   { date: 'Wed, 09 Apr 2014 12:52:41 GMT',
+24 silly registry.get     server: 'Apache',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     'last-modified': 'Wed, 09 Apr 2014 12:52:42 GMT',
+24 silly registry.get     'cache-control': 'max-age=1',
+24 silly registry.get     etag: '"9C656K6ZYR4L99S2WBXUA951A"',
+24 silly registry.get     'x-served-by': 'cache-sv62-SJC3',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1397047961.847302437,VS0,VE167',
+24 silly registry.get     vary: 'Accept',
+24 silly registry.get     'content-length': '0',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 verbose etag buffertools from cache
+26 silly addNameRange number 2 { name: 'buffertools', range: '*', hasData: true }
+27 silly addNameRange versions [ 'buffertools',
+27 silly addNameRange   [ '1.0.0',
+27 silly addNameRange     '1.0.1',
+27 silly addNameRange     '1.0.2',
+27 silly addNameRange     '1.0.3',
+27 silly addNameRange     '1.0.4',
+27 silly addNameRange     '1.0.5',
+27 silly addNameRange     '1.0.6',
+27 silly addNameRange     '1.0.7',
+27 silly addNameRange     '1.0.8',
+27 silly addNameRange     '1.0.9',
+27 silly addNameRange     '1.1.0',
+27 silly addNameRange     '1.1.1',
+27 silly addNameRange     '2.0.0',
+27 silly addNameRange     '2.0.1',
+27 silly addNameRange     '2.1.0',
+27 silly addNameRange     '2.1.1',
+27 silly addNameRange     '2.1.2' ] ]
+28 verbose addNamed [ 'buffertools', '2.1.2' ]
+29 verbose addNamed [ '2.1.2', '2.1.2' ]
+30 silly lockFile 95ef3c27-buffertools-2-1-2 buffertools@2.1.2
+31 verbose lock buffertools@2.1.2 C:\Users\rikitas\AppData\Roaming\npm-cache\95ef3c27-buffertools-2-1-2.lock
+32 silly lockFile 95ef3c27-buffertools-2-1-2 buffertools@2.1.2
+33 silly lockFile 95ef3c27-buffertools-2-1-2 buffertools@2.1.2
+34 silly lockFile 192bcd32-buffertools buffertools@
+35 silly lockFile 192bcd32-buffertools buffertools@
+36 silly resolved [ { name: 'buffertools',
+36 silly resolved     main: 'buffertools',
+36 silly resolved     version: '2.1.2',
+36 silly resolved     keywords: [ 'buffer', 'buffers' ],
+36 silly resolved     description: 'Working with node.js buffers made easy.',
+36 silly resolved     homepage: 'https://github.com/bnoordhuis/node-buffertools',
+36 silly resolved     author:
+36 silly resolved      { name: 'Ben Noordhuis',
+36 silly resolved        email: 'info@bnoordhuis.nl',
+36 silly resolved        url: 'http://bnoordhuis.nl/' },
+36 silly resolved     repository:
+36 silly resolved      { type: 'git',
+36 silly resolved        url: 'https://github.com/bnoordhuis/node-buffertools.git' },
+36 silly resolved     engines: { node: '>=0.3.0' },
+36 silly resolved     scripts: { test: 'node test.js', install: 'node-gyp rebuild' },
+36 silly resolved     license: 'ISC',
+36 silly resolved     readmeFilename: 'README.md',
+36 silly resolved     gypfile: true,
+36 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+36 silly resolved     readme: '# node-buffertools\n\nUtilities for manipulating buffers.\n\n## Installing the module\n\nEasy! With [npm](http://npmjs.org/):\n\n\tnpm install buffertools\n\nFrom source:\n\n\tnode-gyp configure\n\tnode-gyp build\n\nNow you can include the module in your project.\n\n\trequire(\'buffertools\').extend();  // extend Buffer.prototype\n\tvar buf = new Buffer(42);         // create a 42 byte buffer\n\tbuf.clear();                      // clear it!\n\nIf you don\'t want to extend the Buffer class\'s prototype (recommended):\n\n\tvar buffertools = require(\'buffertools\');\n\tvar buf = new Buffer(42);\n\tbuffertools.clear(buf);\n\n## Methods\n\nNote that most methods that take a buffer as an argument, will also accept a string.\n\n### buffertools.extend([object], [object...])\n\nExtend the arguments with the buffertools methods.  If called without arguments,\ndefaults to `[Buffer.prototype, SlowBuffer.prototype]`.  Extending prototypes\nonly makes sense for classes that derive from `Buffer`.\n\nbuffertools v1.x extended the `Buffer` prototype by default.  In v2.x, it is\nopt-in.  The reason for that is that buffertools was originally developed for\nnode.js v0.3 (or maybe v0.2, I don\'t remember exactly when buffers were added)\nwhere the `Buffer` class was devoid of any useful methods.  Over the years, it\nhas grown a number of utility methods, some of which conflict with the\nbuffertools methods of the same name, like `Buffer#fill()`.\n\n### Buffer#clear()\n### buffertools.clear(buffer)\n\nClear the buffer. This is equivalent to `Buffer#fill(0)`.\nReturns the buffer object so you can chain method calls.\n\n### Buffer#compare(buffer|string)\n### buffertools.compare(buffer, buffer|string)\n\nLexicographically compare two buffers. Returns a number less than zero\nif a < b, zero if a == b or greater than zero if a > b.\n\nBuffers are considered equal when they are of the same length and contain\nthe same binary data.\n\nSmaller buffers are considered to be less than larger ones. Some buffers\nfind this hurtful.\n\n### Buffer#concat(a, b, c, ...)\n### buffertools.concat(a, b, c, ...)\n\nConcatenate two or more buffers/strings and return the result. Example:\n\n\t// identical to new Buffer(\'foobarbaz\')\n\ta = new Buffer(\'foo\');\n\tb = new Buffer(\'bar\');\n\tc = a.concat(b, \'baz\');\n\tconsole.log(a, b, c); // "foo bar foobarbaz"\n\n\t// static variant\n\tbuffertools.concat(\'foo\', new Buffer(\'bar\'), \'baz\');\n\n### Buffer#equals(buffer|string)\n### buffertools.equals(buffer, buffer|string)\n\nReturns true if this buffer equals the argument, false otherwise.\n\nBuffers are considered equal when they are of the same length and contain\nthe same binary data.\n\nCaveat emptor: If your buffers contain strings with different character encodings,\nthey will most likely *not* be equal.\n\n### Buffer#fill(integer|string|buffer)\n### buffertools.fill(buffer, integer|string|buffer)\n\nFill the buffer (repeatedly if necessary) with the argument.\nReturns the buffer object so you can chain method calls.\n\n### Buffer#fromHex()\n### buffertools.fromHex(buffer)\n\nAssumes this buffer contains hexadecimal data (packed, no whitespace)\nand decodes it into binary data. Returns a new buffer with the decoded\ncontent. Throws an exception if non-hexadecimal data is encountered.\n\n### Buffer#indexOf(buffer|string, [start=0])\n### buffertools.indexOf(buffer, buffer|string, [start=0])\n\nSearch this buffer for the first occurrence of the argument, starting at\noffset `start`. Returns the zero-based index or -1 if there is no match.\n\n### Buffer#reverse()\n### buffertools.reverse(buffer)\n\nReverse the content of the buffer in place. Example:\n\n\tb = new Buffer(\'live\');\n\tb.reverse();\n\tconsole.log(b); // "evil"\n\n### Buffer#toHex()\n### buffertools.toHex(buffer)\n\nReturns the contents of this buffer encoded as a hexadecimal string.\n\n## Classes\n\nSingular, actually. To wit:\n\n## WritableBufferStream\n\nThis is a regular node.js [writable stream](http://nodejs.org/docs/v0.3.4/api/streams.html#writable_Stream)\nthat accumulates the data it receives into a buffer.\n\nExample usage:\n\n\t// slurp stdin into a buffer\n\tprocess.stdin.resume();\n\tostream = new WritableBufferStream();\n\tutil.pump(process.stdin, ostream);\n\tconsole.log(ostream.getBuffer());\n\nThe stream never emits \'error\' or \'drain\' events.\n\n### WritableBufferStream.getBuffer()\n\nReturn the data accumulated so far as a buffer.\n\n## TODO\n\n* Logical operations on buffers (AND, OR, XOR).\n* Add lastIndexOf() functions.\n\n## License\n\nCopyright (c) 2010, Ben Noordhuis <info@bnoordhuis.nl>\n\nPermission to use, copy, modify, and/or distribute this software for any\npurpose with or without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES\nWITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR\nANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN\nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF\nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n',
+36 silly resolved     bugs: { url: 'https://github.com/bnoordhuis/node-buffertools/issues' },
+36 silly resolved     _id: 'buffertools@2.1.2',
+36 silly resolved     _from: 'buffertools@' } ]
+37 info install buffertools@2.1.2 into C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes
+38 info installOne buffertools@2.1.2
+39 info C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules\buffertools unbuild
+40 verbose tar unpack C:\Users\rikitas\AppData\Roaming\npm-cache\buffertools\2.1.2\package.tgz
+41 silly lockFile 4bbcd087-ocesses-node-modules-buffertools tar://C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules\buffertools
+42 verbose lock tar://C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules\buffertools C:\Users\rikitas\AppData\Roaming\npm-cache\4bbcd087-ocesses-node-modules-buffertools.lock
+43 silly lockFile 48596274-he-buffertools-2-1-2-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\buffertools\2.1.2\package.tgz
+44 verbose lock tar://C:\Users\rikitas\AppData\Roaming\npm-cache\buffertools\2.1.2\package.tgz C:\Users\rikitas\AppData\Roaming\npm-cache\48596274-he-buffertools-2-1-2-package-tgz.lock
+45 silly gunzTarPerm modes [ '755', '644' ]
+46 silly gunzTarPerm extractEntry package.json
+47 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+50 silly gunzTarPerm extractEntry README.md
+51 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+52 silly gunzTarPerm extractEntry LICENSE
+53 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+54 silly gunzTarPerm extractEntry buffertools.js
+55 silly gunzTarPerm modified mode [ 'buffertools.js', 438, 420 ]
+56 silly gunzTarPerm extractEntry test.js
+57 silly gunzTarPerm modified mode [ 'test.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry binding.gyp
+59 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+60 silly gunzTarPerm extractEntry buffertools.cc
+61 silly gunzTarPerm modified mode [ 'buffertools.cc', 438, 420 ]
+62 silly gunzTarPerm extractEntry .mailmap
+63 silly gunzTarPerm modified mode [ '.mailmap', 438, 420 ]
+64 silly gunzTarPerm extractEntry AUTHORS
+65 silly gunzTarPerm modified mode [ 'AUTHORS', 438, 420 ]
+66 silly gunzTarPerm extractEntry BoyerMoore.h
+67 silly gunzTarPerm modified mode [ 'BoyerMoore.h', 438, 420 ]
+68 silly gunzTarPerm extractEntry wscript
+69 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+70 silly lockFile 4bbcd087-ocesses-node-modules-buffertools tar://C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules\buffertools
+71 silly lockFile 4bbcd087-ocesses-node-modules-buffertools tar://C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules\buffertools
+72 silly lockFile 48596274-he-buffertools-2-1-2-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\buffertools\2.1.2\package.tgz
+73 silly lockFile 48596274-he-buffertools-2-1-2-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\buffertools\2.1.2\package.tgz
+74 info preinstall buffertools@2.1.2
+75 verbose readDependencies using package.json deps
+76 verbose readDependencies using package.json deps
+77 silly resolved []
+78 verbose about to build C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules\buffertools
+79 info build C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules\buffertools
+80 verbose linkStuff [ false,
+80 verbose linkStuff   false,
+80 verbose linkStuff   false,
+80 verbose linkStuff   'C:\\05-Employing Streams\\05-Employing Streams\\25-Streaming across Node processes\\node_modules' ]
+81 info linkStuff buffertools@2.1.2
+82 verbose linkBins buffertools@2.1.2
+83 verbose linkMans buffertools@2.1.2
+84 verbose rebuildBundles buffertools@2.1.2
+85 info install buffertools@2.1.2
+86 verbose unsafe-perm in lifecycle true
+87 info buffertools@2.1.2 Failed to exec install script
+88 info C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules\buffertools unbuild
+89 info preuninstall buffertools@2.1.2
+90 info uninstall buffertools@2.1.2
+91 verbose true,C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules,C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes\node_modules unbuild buffertools@2.1.2
+92 info postuninstall buffertools@2.1.2
+93 error buffertools@2.1.2 install: `node-gyp rebuild`
+93 error Exit status 1
+94 error Failed at the buffertools@2.1.2 install script.
+94 error This is most likely a problem with the buffertools package,
+94 error not with npm itself.
+94 error Tell the author that this fails on your system:
+94 error     node-gyp rebuild
+94 error You can get their info via:
+94 error     npm owner ls buffertools
+94 error There is likely additional logging output above.
+95 error System Windows_NT 6.1.7601
+96 error command "D:\\nodejs\\\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "buffertools"
+97 error cwd C:\05-Employing Streams\05-Employing Streams\25-Streaming across Node processes
+98 error node -v v0.10.26
+99 error npm -v 1.4.3
+100 error code ELIFECYCLE
+101 verbose exit [ 1, true ]

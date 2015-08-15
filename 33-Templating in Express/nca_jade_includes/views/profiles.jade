@@ -1,0 +1,13 @@
+table#profiles
+  tr
+    th Name
+    th Irc
+    th Twitter
+    th Github
+    th Location
+    th Description
+    each profile, id in profiles
+      tr(id=id)
+        each val in profile
+          td #{val}
+

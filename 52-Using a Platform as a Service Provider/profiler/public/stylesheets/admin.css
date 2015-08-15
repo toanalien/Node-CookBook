@@ -1,0 +1,34 @@
+tbody td .del {
+  text-decoration: none;
+  color: #ffff59;
+  float: right;
+}
+tbody td .del:hover {
+  color: #f00;
+}
+#ctrl {
+  width: 950px;
+  text-align: center;
+  margin-top: -2.5em;
+}
+#ctrl a {
+  color: #e6e6e6;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+#ctrl a:hover {
+  color: #fff;
+}
+#js #addfrm {
+  display: none;
+}
+#addfrm label {
+  display: block;
+  float: left;
+  width: 100px;
+  font-weight: bold;
+}
+#addfrm .btns {
+  width: 250px;
+  text-align: right;
+}

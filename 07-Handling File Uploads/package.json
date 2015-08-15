@@ -1,0 +1,16 @@
+{
+  "name": "NCB2",
+  "version": "2.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "David Mark Clements",
+  "readmeFilename": "README",
+  "dependencies": {
+    "connect": "~2.7.9",
+    "formidable": "1.x.x"
+  }
+}

@@ -1,0 +1,8 @@
+In this folder:
+
+quotes.js: Using Mongoskin, creates and connects to a MongoDB database (called quotes), creates a collection 
+           (also called quotes) and provides a command line interface for inserting quotes, and for finding quotes by author
+           
+quotes_bind.js: Using Mongoskins bind method, creates and connects to a MongoDB database (called quotes), 
+                creates a collection (also called quotes) and provides a command line interface for inserting quotes, 
+                and for finding quotes by author           

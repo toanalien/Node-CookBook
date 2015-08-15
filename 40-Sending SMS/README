@@ -1,0 +1,8 @@
+In this folder:
+
+smsout.js: sends a text message to a list of recipients using Twilio services
+
+
+phonecall.js: makes an automated phone call using the Twilio services. Must be hosted on a Internet exposed server 
+              (e.g. host with DNS pointed at) 
+

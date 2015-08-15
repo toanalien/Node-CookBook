@@ -1,0 +1,6 @@
+In this folder:
+
+login.tar.gz - The login app from Chapter 6, recipe 32 - Initializing and using a session as a compressed tar.gz file. 
+               This is the first step, before FTP'ing our app accross to the server
+
+port_proxying - Uses http-proxy module to expose several locally hosted app processes through port 80. 

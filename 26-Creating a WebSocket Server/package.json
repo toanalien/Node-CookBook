@@ -1,0 +1,12 @@
+{
+  "name": "NCB2",
+  "version": "2.0.0",
+  "author": "David Mark Clements",
+  "readmeFilename": "README",
+  "dependencies": {
+    "ws": "~0.4.27",
+    "request": "~2.22.0",
+    "JSONStream": "~0.6.4",
+    "websocket-stream": "~0.2.0"
+  }
+}

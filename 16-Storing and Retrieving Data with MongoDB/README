@@ -1,0 +1,10 @@
+In this folder:
+
+quotes.js: creates and connects to a MongoDB database (called quotes), creates a collection (also called quotes)
+           and provides a command line interface for inserting quotes, and for finding quotes by author. 
+
+authors.js: index's the author key in the MongoDB and retrieves distinct list of authors
+
+quotes_votes.js: extends quotes.js with a voting mechanism, updates a selected record with a vote field, runs the 
+                 MongoDB $inc modifier to increase vote by 1 (if it is already there) returns a list of the top 10
+                 quotes according to highest votes. 

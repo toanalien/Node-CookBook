@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  - var headers = ['Name', 'Irc', 'Twitter', 'Github', 'Location', 'Description'];
+  table#profiles
+    tr
+      each header in headers
+        th= header
+      each profile, id in profiles
+        tr(id=id)
+          each val in profile
+            td #{val}
+

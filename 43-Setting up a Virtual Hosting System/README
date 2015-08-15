@@ -1,0 +1,37 @@
+In this folder:
+
+server.js: an HTTP server that presents a site based upon the requested hostname
+
+mappings.js: exports an object containing static file servers mapped to each hostname
+
+sites: the static websites for each hostname, contained in subdirectories 
+        (localhost-site and nodecookbook)  
+
+
+express_virtual_hosting: 
+
+  server.js: an Express app that uses express.vhost to virtually host child Express apps, 
+             presenting them to the client depending upon the specified hostname
+
+  mappings.js: exports an object containing Express apps mapped to each hostname
+
+  sites: contains Express app project folders for each hostname (localhost-site and nodecookbook)  
+
+secure_virtual_hosting:
+  server.js: an HTTPS server that presents a secure site based upon the requested hostname
+
+  mappings.js: exports an object of objects containing static file servers and SSL/TLS credentials
+
+  sites: the static websites for each hostname, contained in subdirectories 
+        (davidmarkclements.com and nodecookbook.com)
+  
+  sites/[davidmarkclements.com, nodecookbook.com]/certs: a folder containing the private key and public certificate
+                                                         specific to its site (should be replaced, or used in conjuction
+                                                         with howto/CA.pem for local testing, see howto folder).
+                                                         
+  howto/READ_THIS_GUIDE: A guide to getting this example working locally
+  howto/CA.pm: A custom built Root Certificate Authority public key for making the certs/cert.pem and certs/key.pem
+               files work without warning in Firefox, to demonstrate proof of concept.    
+
+            
+

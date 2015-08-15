@@ -1,0 +1,30 @@
+masterviews = typeof(masterviews) !== 'undefined' ? masterviews : '' 
+      
+table#profiles
+  tfoot
+    
+    s = console.log(page) || (page > 1) ? null : 'display:none'
+    td
+     a#bck(href="#{(+(page||1)-1)}", style=s) &laquo;
+     a#fwd(href="#{(+(page||1)+1)}") &raquo;
+  thead
+    tr
+      th Name
+      th Irc
+      th Twitter
+      th Github
+      th Location
+      th Description
+      if typeof user !== 'undefined'
+        th Action
+
+  tbody   
+    each profile, id in profiles
+      tr(id=id)
+        each row in profile
+          td= row
+        mixin del(id)
+mixin add
+       
+mixin adminScript  
+

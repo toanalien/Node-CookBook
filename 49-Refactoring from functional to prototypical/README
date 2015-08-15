@@ -1,0 +1,17 @@
+In this folder:
+
+mp3dat: a rewrite of mp3dat from 45-Writing mp3dat using the prototype pattern. 
+
+mp3dat_exposing_stat: an adjustment to mp3dat such that the stat method is included within
+                      the returned instance so that it is visible to the module user
+
+mp3dat_only_exposing_stat: a simpler adjustment to mp3dat that exposed ONLY the stat method, 
+                           as in the functional style mp3dat of 45-Writing mp3dat
+
+mp3dat_multiple_instances: an adjustment to mp3dat that allows the module user to initialize
+                           multiple instances of mp3dat whilst still being able to reap the benefits
+                           of shared state.
+
+
+
+

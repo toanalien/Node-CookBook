@@ -1,0 +1,2 @@
+127.0.0.1 - - [Sat, 08 Mar 2014 02:36:51 GMT] "GET / HTTP/1.1" 200 1143 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11"
+127.0.0.1 - - [Sat, 08 Mar 2014 02:36:51 GMT] "GET /stylesheets/style.css HTTP/1.1" 200 1145 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11"

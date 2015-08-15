@@ -1,0 +1,21 @@
+In this folder:
+
+post-update: a Git Hook file which should be in the remote "bare" (skeletal) repository (repo) that mirrors the main repository (login)
+             It should go into login/repo/hooks/
+
+post-update-with-rebuild-and-install: As post-update but runs npm rebuild and npm install after an update to ensure all modules 
+                                      are present and correct, irradicates need for node_modules folder to be synchronized,              
+                                      
+-.gitignore: When replaced in repo as .gitignore (i.e. without the dash prefix) it works in tandem with post-update-with-rebuild-and-install
+             hook by ignoring the node_modules folder.
+
+repo: A repository as cloned from the bare Git repository (repo) 
+       that inherits from the initial login repository (login). Any changes pushed to this 
+       repo trigger a post-update hook, which in turn triggers the login repository to 
+       pull changes from repo and restart the app. 
+       
+repo_with_node_testing_integration_hook: As repo, but with the addition of a Node based pre-commit
+                                         hook which forces testing on each commit, ensuring code
+                                         quality. Files of note are package.json and .git/hooks/pre-commit
+
+                                         

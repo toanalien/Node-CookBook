@@ -1,0 +1,16 @@
+<h1> <%= title %></h1>
+<p> Welcome to <%= title %></p>
+
+<table>
+<tr><th>Name</th><th>Irc</th><th>Twitter</th>
+<th>Github</th><th>Location</th><th>Description</th></tr>
+
+<% Object.keys(profiles).forEach(function (id) {%>
+  <tr>
+   <% Object.keys(profiles[id]).forEach(function (val) { %>
+   <td><%= profiles[id][val]; %></td>
+   <% }); %>
+
+  </tr>
+<% }); %>
+</table>

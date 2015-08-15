@@ -1,0 +1,10 @@
+In this folder:
+
+quotes_stream.js: Using Cradle, interfaces with the CouchDB _changes stream for the quotes database, so 
+                  that updates to the database are output by quotes_stream.js as they occur. 
+
+quotes.js: Copied from previous recipe, 20-Retrieving Data from CouchDB with Cradle, modified for providing
+           authorization details to CouchDB (if neccessary). Using Cradle, creates and connects to a CouchDB
+           database (called quotes), and provides a command line interface for inserting quotes, and for finding
+           quotes by author
+          

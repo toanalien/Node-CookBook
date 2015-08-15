@@ -1,0 +1,10 @@
+{
+  "name": "NCB2",
+  "version": "2.0.0",
+  "author": "David Mark Clements",
+  "readmeFilename": "README",
+  "dependencies": {
+    "socket.io": "~1.0.0",
+    "sockjs": "~0.3.7"
+  }
+}

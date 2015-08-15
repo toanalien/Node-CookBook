@@ -1,0 +1,5 @@
+127.0.0.1 - - [Sat, 08 Mar 2014 01:37:14 GMT] "GET /shoe/reee HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11"
+127.0.0.1 - - [Sat, 08 Mar 2014 01:37:14 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/shoe/reee" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11"
+127.0.0.1 - - [Sat, 08 Mar 2014 01:37:16 GMT] "GET /shoe/reee HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11"
+127.0.0.1 - - [Sat, 08 Mar 2014 01:37:16 GMT] "GET /stylesheets/style.css HTTP/1.1" 304 - "http://localhost:3000/shoe/reee" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11"
+127.0.0.1 - - [Sat, 08 Mar 2014 01:37:17 GMT] "GET /shoe/delete HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_1) AppleWebKit/537.73.11 (KHTML, like Gecko) Version/7.0.1 Safari/537.73.11"

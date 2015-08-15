@@ -1,0 +1,8 @@
+In this folder:
+
+twitter_trends.js: Interfaces with Twitter REST API, to learn current 
+                   top Twitter Trending Topic, and then searches for 
+                   most recent 10 tweets regarding that topic
+                   
+google_trends_twitter.js: Takes top Google Hot Trend and searches most
+                          recent 10 tweets regarding that trend

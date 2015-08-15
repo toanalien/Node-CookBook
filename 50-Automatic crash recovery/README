@@ -1,0 +1,10 @@
+In this folder:
+
+server.js - An HTTP server that deliberately crashes upon every HTTP request
+
+crashingserver.conf - An Upstart script (to be placed in /etc/init) that keeps our server alive by
+                      restarting it when it crashes, sending an email on every start. 
+
+sitedownmon.conf - An Upstart script that monitors a fatal crash of our server, which is triggered
+                   by exceeding the respawn limit set in crashingserver.conf. If a fatal crash is detected
+                   it sends an email.

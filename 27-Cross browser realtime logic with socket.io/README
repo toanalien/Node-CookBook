@@ -1,0 +1,28 @@
+In this folder:
+
+server.js: a Socket.io server implementation using the socket.io module
+
+client.html: an HTML file that uses the Socket.io library to interface with server.js
+
+custom_events_client.js: demonstration of custom event emitting with Socket.io
+
+custom_events_client.html: counterpart to custom_events_client.js
+
+namespacing:
+  server.js: a rewrite of server.js from Chapter 3, Recipe 12 Transferring data between 
+             browser and server via AJAX. Uses Socket.io to transfer data via websockets,
+             falling back to AJAX-type transports for older browsers. 
+             
+  index.html: a rewrite of client code index.html from from Chapter 3, Recipe 12 Transferring
+              data between browser and server via AJAX. Uses Socket.io to recieve data via 
+              websockets, falling back to AJAX-type transports for older browsers. 
+  
+  buildXml.js: Untouched from Recipe 12, holds a function that serializes an object into XML,
+               which is loaded into module.exports for later requiring
+               
+  profiles.js: Untouched from Recipe 12, holds an object of profiles of certain Node 
+               community members which is loaded into module.exports so it can be required
+
+  
+
+

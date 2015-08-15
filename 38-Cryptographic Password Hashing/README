@@ -1,0 +1,12 @@
+In this folder:
+
+server.js: An HTTP server written in Express that recieves a POST request intended for registering 
+           a user, MD5 encrypting the specified password using the Crypto module. 
+
+server_hmac.js: An HTTP server written in Express that recieves a POST request intended for registering 
+                a user, uniquely MD5 encrypting the specified password using the Crypto modules HMAC method
+
+server_pbkdf2.js: An HTTP server written in Express that recieves a POST request intended for registering 
+                  a user, applying PBKDF2 for a strongly encrypted password using the Crypto module. 
+
+regform.html: The HTML form served for registration

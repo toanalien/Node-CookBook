@@ -1,0 +1,13 @@
+In this folder:
+
+write_to_csv.js: uses ya-csv to output a multilevel into CSV format
+data.csv: output from write_to_csv.js
+
+write_to_custom_csv.js: using ya-csv, customises the delimeter, quote key and escape key of CSV output
+custom_data.csv: output from write_to_custom_csv.js
+
+read_from_csv.js: read's from data.csv to form a Javascript array, also contains commented out code for reading from custom_data.csv
+
+streaming_csv.js: recieves and parses a large file as a CSV stream using ya-csv
+big_data_generator.js: [tool] generates the big_data.csv file for streaming_csv.js. 
+                       to use simply command: node big_data_generator.js > big_data.csv

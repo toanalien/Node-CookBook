@@ -1,0 +1,6 @@
+In this folder:
+
+profiler: The profile displayer app with admin section from Chapter 6's recipe "Making an Express Web App", 
+          updated to be secured with HTTPS and integrated with CSRF protection middleware. 
+          
+

@@ -1,0 +1,10 @@
+In this folder:
+
+server.js: Server with ability to throttle download speeds to specified kbps
+enabling_resumes_server.js: As server.js, but can response to range requests
+                            in the context of download resuming. 
+
+50meg: The test file that is delivered by server.js and 
+       enabling_resumes_server.js, generated with:
+       dd if=/dev/zero of=50meg count=50 bs=1048576
+       

@@ -1,0 +1,6 @@
+In this folder:
+
+mp3dat: the beginnings of the mp3dat module, of interest is the mp3dat/test directory, which holds index.js and test.mp3. 
+        At present running node test from within mp3dat folder will fail as code to accompany test has not been written.
+        
+mp3dat_should: A rewrite of the tests using the third part should unit tests module, instead of the core assert testing module. 

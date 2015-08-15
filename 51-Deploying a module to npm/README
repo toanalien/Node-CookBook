@@ -1,0 +1,6 @@
+In this folder:
+
+mp3dat: Identical to 47-Improving and extending mp3dat/mp3dat_eventemitter_inherit
+        except it also contains the required package.json file for publishing to npm.
+ 
+

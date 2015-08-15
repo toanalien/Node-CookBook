@@ -1,0 +1,11 @@
+In this folder:
+
+server.js: contains two TCP servers, one for taking HTTP requests from browsers, the other to provide a real-time 
+           monitoring interface
+           
+client.js: counterpart to server.js, connects to the server.js monitorInterface TCP server to retrieve live HTTP headers
+
+tcp_stats.js: Uses node_pcap module to analyze TCP traffic  (requires libpcap to be installed on system, has to be run as root)
+
+port_forwarder.js: Programmatically forwards TCP traffic from one port to another. 
+

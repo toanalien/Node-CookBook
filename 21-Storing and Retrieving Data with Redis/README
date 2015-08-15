@@ -1,0 +1,9 @@
+In this folder:
+
+quotes.js:  creates and connects to Redis, providing a command line interface for 
+            inserting quotes, and for finding quotes by author. 
+
+quotes_multi.js: optimized quotes.js by using multi to pipeline hmset and sadd commands, 
+                 thus reducing Round Trip Time overhead of two calls into one
+
+qoutes_auth.js: add's authenticated login ability to quotes.js to a Redis server with requirepass set. 

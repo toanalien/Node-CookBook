@@ -1,0 +1,25 @@
+body
+  padding 50px
+  font 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+a 
+  color #00B7FF
+ 
+.pad
+  padding 0.5em
+
+borderIt(rad = 0, size = 1px, type = solid, col = #000) 
+  border size type col
+  if rad
+    -webkit-border-radius rad
+    -moz-border-radius rad
+    border-radius rad
+
+#profiles 
+  borderIt 20px 2px
+  @extend .pad
+  th
+    @extend .pad
+  td 
+    @extend .pad    
+    borderIt(col: #000 + 80%)
+    

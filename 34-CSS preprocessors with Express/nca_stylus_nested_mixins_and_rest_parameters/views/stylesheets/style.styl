@@ -1,0 +1,49 @@
+body
+  padding 50px
+  font 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+a 
+  color #00B7FF
+  
+rndCorner(rad, sides...)
+  if length(sides) is 2
+    -moz-border-radius-{sides[0]}{sides[1]} rad
+    -webkit-border-{sides[0]}-{sides[1]}-radius rad
+    border-{sides[0]}-{sides[1]}-radius rad
+  else
+    -webkit-border-radius rad
+    -moz-border-radius rad
+    border-radius rad
+  
+borderIt(rad = 0, size = 1px, type = solid, col = #000) 
+  border size type col
+  if rad {rndCorner(rad)}
+
+.cell
+  padding 0.5em
+
+tdRad = 9px
+
+#profiles 
+  borderIt 20px 2px
+  @extend .cell
+  th
+    @extend .cell    
+  td 
+    @extend .cell    
+    borderIt(col: #000 + 80%)
+  tr
+    &:nth-child(2)
+        td:first-child
+         rndCorner tdRad top left
+        td:last-child
+         rndCorner tdRad top right
+    &:last-child
+        td:first-child
+         rndCorner tdRad bottom left 
+        td:last-child
+         rndCorner tdRad bottom right
+
+  
+      
+    

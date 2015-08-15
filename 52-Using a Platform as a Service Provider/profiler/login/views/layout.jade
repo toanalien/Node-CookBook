@@ -1,0 +1,10 @@
+!!!
+html
+  head
+    title= title
+    if user
+      link(rel='stylesheet', href='/admin/stylesheets/admin.css')
+    else
+      link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    block content

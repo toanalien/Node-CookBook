@@ -1,0 +1,13 @@
+In this folder:
+
+login: A newly generated Express app (using express login), that has been configured (in app.js and package.json)
+       to provide session based browsing for the purpose of providing a user login. 
+       
+login_site_wide: Converts login from being route bound, and causes sessions to be managed for all routes. 
+
+login_flash_messages: Utlizing the Express flash method to push single request messages through the session object. 
+
+
+
+        
+

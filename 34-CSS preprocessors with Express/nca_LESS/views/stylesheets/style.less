@@ -1,0 +1,29 @@
+body { padding: 50px;
+      font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a { color: #00B7FF; }
+ 
+ .pad() { padding: 0.5em; }
+ 
+.borderIt (@rad:0, @size:1px, @type: solid, @col: #000) {
+  border: @size @type @col;
+}
+
+.borderIt (@rad:0) when (@rad > 0) {
+  -webkit-border-radius: @rad;
+  -moz-border-radius: @rad;
+  border-radius: @rad;
+}
+
+
+#profiles {
+.borderIt(20px, 2px);
+.pad();
+th { .pad(); }
+td { .pad(); 
+  .borderIt(0,1px,solid,lighten(#000, 80%));
+  }
+}
+
+
+

@@ -1,0 +1,13 @@
+In this folder:
+
+nca:    Building on the altered Express app from the previous recipe, adds view rendering
+        of templates written in the default Jade templating language
+        
+nca_ejs:   As nca, but instead of using Jade templating, uses Embedded Javascript templating
+
+nca_jade_javascript:  demonstrating how to use plain Javascript within a Jade template
+
+nca_jade_includes:  Including external Jade views within a template
+
+
+

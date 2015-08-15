@@ -1,0 +1,36 @@
+@import '../../../views/stylesheets/style.styl'
+
+tbody
+  td 
+    .del
+      text-decoration none
+      color blue + 35% + 180deg
+      float right
+      &:hover
+        color red
+#ctrl 
+  width 950px
+  text-align center
+  margin-top -2.5em
+  a
+    color white - 10%
+    font-size 1.8em
+    text-decoration none
+    &:hover
+      color @color + 111%
+
+#js
+  #addfrm
+    display none
+      
+
+#addfrm
+  width 250px
+  label
+    display block
+    float left
+    width 100px
+    font-weight bold
+  .btns
+    width @width
+    text-align right

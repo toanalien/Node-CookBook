@@ -1,0 +1,18 @@
+<textarea id='cs' cols=50 rows=20></textarea>
+<script src=websocket-stream.js></script>
+<script>
+ (function () { 
+  var websocket = require('websocket-stream'),
+     ws = websocket('ws://localhost:8080'),     
+    cs = document.getElementById('cs');
+
+  ws.on('data', function (module) {    
+    cs.value += module + ' was created/updated\n';
+    cs.scrollTop = cs.scrollHeight;
+  });
+
+  ws.on('end', function () {    
+    cs.value = 'disconnected';
+  });
+ }())  
+</script>

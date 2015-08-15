@@ -1,0 +1,102 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00b7ff;
+}
+.pad,
+#profiles,
+#profiles th,
+#profiles tbody td {
+  padding: 0.5em;
+}
+#profiles {
+  width: 950px;
+  border: 2px solid #000;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #000;
+  color: #fff;
+}
+#profiles tbody td {
+  background: #5959ff;
+  border: 1px solid #5959ff;
+  color: #ff6da1;
+  color: #e8e8e8;
+}
+#profiles tbody td:hover {
+  color: #ffff59;
+  background: #7a7ade;
+  border-color: #7a7ade;
+}
+#profiles tbody tr:first-child td:first-child {
+  -moz-border-radius-topleft: 9px;
+  -webkit-border-top-left-radius: 9px;
+  border-top-left-radius: 9px;
+}
+#profiles tbody tr:first-child td:last-child {
+  -moz-border-radius-topright: 9px;
+  -webkit-border-top-right-radius: 9px;
+  border-top-right-radius: 9px;
+}
+#profiles tbody tr:last-child td:first-child {
+  -moz-border-radius-bottomleft: 9px;
+  -webkit-border-bottom-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+#profiles tbody tr:last-child td:last-child {
+  -moz-border-radius-bottomright: 9px;
+  -webkit-border-bottom-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+#profiles tfoot {
+  font-size: 1.5em;
+}
+#profiles tfoot td,
+#profiles tfoot a {
+  text-decoration: none;
+  color: #e6e6e6;
+}
+#profiles tfoot td:hover,
+#profiles tfoot a:hover {
+  color: #fff;
+}
+tbody td .del {
+  text-decoration: none;
+  color: #ffff59;
+  float: right;
+}
+tbody td .del:hover {
+  color: #f00;
+}
+#ctrl {
+  width: 950px;
+  text-align: center;
+  margin-top: -2.5em;
+}
+#ctrl a {
+  color: #e6e6e6;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+#ctrl a:hover {
+  color: #fff;
+}
+#js #addfrm {
+  display: none;
+}
+#addfrm {
+  width: 250px;
+}
+#addfrm label {
+  display: block;
+  float: left;
+  width: 100px;
+  font-weight: bold;
+}
+#addfrm .btns {
+  width: 250px;
+  text-align: right;
+}

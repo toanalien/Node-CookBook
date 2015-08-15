@@ -1,0 +1,5 @@
+In this folder:
+
+server.js: An HTTP server with Basic Authentication
+
+server_express.js: An HTTP server with Basic Authentication implemented using the Connect and Express frameworks

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cd /root/login
+env -i git pull loginrepo master && npm rebuild && npm install
+
+exec forever restart /root/login/app.js
+

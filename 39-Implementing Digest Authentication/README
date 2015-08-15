@@ -1,0 +1,5 @@
+In this folder:
+
+server.js: An HTTP server with Digest Authentication
+
+server_with_logout.js: An HTTP server with Digest Authentication having a "logging out" solution

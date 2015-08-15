@@ -1,0 +1,15 @@
+<html>
+<head>
+<script>
+  var who = 'ryan';
+
+  function cb(o) {
+    alert(o.name + ' : ' + o.description);
+  }
+
+  var s = document.createElement('script');
+  s.src = 'http://localhost:8080/?callback=cb&who=' + who;
+  document.getElementsByTagName("head")[0].appendChild(s);
+</script>
+</head>
+</html>

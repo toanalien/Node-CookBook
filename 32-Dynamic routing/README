@@ -1,0 +1,13 @@
+In this folder:
+
+nca:    Building on the altered Express app from the previous recipe, add's custom routes
+        using the app.js file and the routes/index.js file
+        
+nca_route_validation:  Extends nca app to include validation on routes, e.g. route must
+                       only contain letters, no numbers or punctuation
+
+nca_optional_routes:  Extends nca app with optional routing, whereby if a route is served
+                      whether the placeholder is present or not, so / and /anypage will both
+                      trigger the defined route callback
+
+nca_asterisks_globbing:  Extends nca app to utilize the asterisks (*) as a wild card for routes

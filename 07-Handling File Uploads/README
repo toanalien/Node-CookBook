@@ -1,0 +1,27 @@
+In this folder:
+
+server.js: Server to receive incoming multipart data via POST request, using
+           formidable library module. 
+           
+preserve_filenames_server.js: As server.js but with a tweak alter the way
+                              formidable names uploaded files
+                              
+parsing_fields_and_files.js: As server.js but with added functionality to 
+                             receive and process standard POST data
+                             
+put_upload_server.js: Server that receives a file streamed directly via PUT
+
+form.html: HTML POST multipart/form-data form served to GET requests by 
+           server.js and preserve_filenames_server.js
+           
+fields_and_files_form.html: HTML POST multipart/form-data form with text
+                            and file input fields, as used to serve GET
+                            requests by parsing_fields_and_files.js
+                            
+put_upload_form.html: HTML form with supporting inline client side javascript
+                      that provides PUT file uploads, only approved to work in
+                      latest stable webkit browsers. Fulfils GET requests to
+                      put_upload_server.js
+
+uploads: folder referenced by all upload examples as directory to store
+         uploaded files. 

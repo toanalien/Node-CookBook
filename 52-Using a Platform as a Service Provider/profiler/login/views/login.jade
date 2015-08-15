@@ -1,0 +1,30 @@
+if flash.error
+  hr
+  b= flash.error
+  hr
+
+if user
+  form(method='post')
+    input(name="_method", type="hidden", value="DELETE")
+    p Hello #{user.name}! 
+      a(href='javascript:', onClick='forms[0].submit()') [logout]
+
+  include admin
+  include ../../views/profiles
+
+
+else 
+  p Please log in
+  form(method="post")
+    fieldset
+      legend Login
+      p
+        label(for="user[name]") Username:
+        input(name="user[name]")
+      p
+        label(for="user[pwd]") Password:
+        input(type="password", name="user[pwd]")
+          
+      input(type="submit")
+      
+

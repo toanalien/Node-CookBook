@@ -1,0 +1,11 @@
+In this folder:
+
+json_and_back.js: converts an object (profiles) to JSON and back again
+
+profiles.js: holds an object of profiles of certain Node community members
+             which is loaded into module.exports so it can be required
+
+
+constructing_jsonp_responses.js: implmentation of JSON with Padding
+
+jsonp_example.html: accompanying HTML file to constructing_jsonp_responses.js

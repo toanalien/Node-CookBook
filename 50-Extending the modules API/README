@@ -1,0 +1,11 @@
+In this folder:
+
+mp3dat: An extension to mp3dat that adds a statStream method, allowing greater flexibility. Of note are the
+        test/index.js file, which tests for the new statStream method, lib/index.js which contains the additional
+        method and examples/stdin_stream.js, examples/HTTP_PUT_stream.js and examples/put_upload_form.html which
+        assist in demonstrating usage of the statStream method
+
+mp3dat_stat_statStream_merge: Merges the statStream method into the stat method. 
+
+mp3dat_EventEmitter_inherit: Integrates the event emitter for another way of interacting the module
+                             (Builds on mp3dat_stat_statStream_merge) 

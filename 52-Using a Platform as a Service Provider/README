@@ -1,0 +1,13 @@
+In this folder:
+
+login: The login app from Chapter 7, recipe 32 - Initializing and using a session, with a modified package.json
+        for use with Nodejitsu. 
+
+login_custom_domain: The login app from Chapter 7, recipe 32 - Initializing and using a session with further inclusion
+                     to package.json of a domain property, allowing us to access Nodejitsu scripts from a custom domain.
+      
+
+profiler: The profiler app from Chapter 7 , recipe 33. We make some alterations to it 
+          in app.js, profiles.js, tools/prepopulate.js, login/login.js and package.json
+          (package.json is altered via jitsu). We basically update the app with a 
+          jitsu provisioned remote mongo database, and ready it for deployment.

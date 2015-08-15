@@ -1,0 +1,11 @@
+In this folder:
+
+server.js: Static file server with server side caching
+reflect_changes_server.js : File changes sensitive caching
+
+content:
+  index.html : example html file to be served
+  styles.css : example css file to be served
+  script.js  : example script file to be served
+  
+content folder is used by server.js, reflect_changes_server.js

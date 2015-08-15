@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<script src=http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js>
+</script>
+<style>
+#frm, #raw {display:block;float:left;width:210px}
+#raw {height:150px;width:310px;margin-left:0.5em}
+</style>
+</head>
+<body>
+<form id=frm>
+Profile: <select id=profiles><option></option></select> <br>
+Format:<select id=formats>
+		  <option value=json> JSON </option>
+		  <option value=xml> XML </option>
+		  </select> <br> <br>
+<div id=output></div>
+</form>
+
+<textarea id=raw></textarea>
+
+<script>
+$.get('http://localhost:8080/profiles',
+  function (profile_names) {
+
+    $.each(profile_names, function (i, pname) {
+      $('#profiles').append('<option>' + pname + '</option>');
+    });
+
+  }, 'json');
+  
+  
+  
+$('#formats, #profiles').change(function () {
+var format = $('#formats').val();
+  $.get('http://localhost:8080/profile/' + $('#profiles').val() + '.' + format,
+    function (profile, stat, jqXHR) {
+      var cT = jqXHR.getResponseHeader('Content-Type');
+      
+      $('#raw').val(profile);
+      $('#output').html('');
+      if (cT === 'application/json') {
+        $.each($.parseJSON(profile), function (k, v) {
+          $('#output').append('<b>' + k + '</b> : ' + v + '<br>');
+        });
+        return;
+      }
+
+      if (cT === 'application/xml') {
+        profile = jqXHR.responseXML.firstChild.childNodes;
+        $.each(profile,
+          function (k, v) {
+            if (v && v.nodeType === 1) {
+              $('#output').append('<b>' + v.tagName + '</b> : ' + v.textContent + '<br>');
+            }
+          });
+        return;
+      }
+    }, 'text');
+
+});
+</script>
+
+
+</body>
+</html>

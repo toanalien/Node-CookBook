@@ -1,0 +1,12 @@
+In this folder:
+
+fetch.js: Client implementation to fetch and output web page as specified
+          on command line
+
+post.js: Client implementation to POST data specified via command line to
+         localhost:8080, requires that ../06-Processing POST Data/server.js
+         is running
+
+upload.js: Client implementation for uploading mutliple files in multipart
+           format over HTTP POST request to localhost:8080, requires that
+           ../07-Handling File Uploads/server.js is running

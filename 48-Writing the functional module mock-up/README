@@ -1,0 +1,6 @@
+In this folder:
+
+mp3dat: first write of mp3dat in plain functional style, of interest is lib/index.js which contains the module code and example/basic.js
+        which holds a simple use example. Running node test from withing the mp3dat folder will should complete with "All tests passed". 
+        
+

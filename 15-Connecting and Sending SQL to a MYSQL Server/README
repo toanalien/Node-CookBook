@@ -1,0 +1,7 @@
+In this folder:
+
+mysql.js: creates and connects to a mysql database (called quotes), creates a table (also called quotes), INSERTs a record
+
+insert_quotes.js: provides a command line interface for inserting quotes into the quotes MySQL database 
+
+quotes.js: extends insert_quotes.js to SELECT all quotes from MySQL database by specified author

@@ -1,0 +1,380 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'D:\\nodejs\\\\node.exe',
+1 verbose cli   'D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'node-curl' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink D:\nodejs\\node.exe
+5 warn package.json NCB2@2.0.0 No repository field.
+6 warn package.json cradle@0.6.7 No repository field.
+7 warn package.json curl@0.1.4 No repository field.
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'node-curl', null ]
+10 verbose cache add name=undefined spec="node-curl" args=["node-curl",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'node-curl',
+11 verbose parsed url   path: 'node-curl',
+11 verbose parsed url   href: 'node-curl' }
+12 silly lockFile 83a84a35-node-curl node-curl
+13 verbose lock node-curl C:\Users\rikitas\AppData\Roaming\npm-cache\83a84a35-node-curl.lock
+14 silly lockFile 83a84a35-node-curl node-curl
+15 silly lockFile 83a84a35-node-curl node-curl
+16 verbose addNamed [ 'node-curl', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile a3954c3c-node-curl node-curl@
+19 verbose lock node-curl@ C:\Users\rikitas\AppData\Roaming\npm-cache\a3954c3c-node-curl.lock
+20 silly addNameRange { name: 'node-curl', range: '*', hasData: false }
+21 verbose url raw node-curl
+22 verbose url resolving [ 'https://registry.npmjs.org/', './node-curl' ]
+23 verbose url resolved https://registry.npmjs.org/node-curl
+24 info trying registry request attempt 1 at 12:18:08
+25 http GET https://registry.npmjs.org/node-curl
+26 http 200 https://registry.npmjs.org/node-curl
+27 silly registry.get cb [ 200,
+27 silly registry.get   { date: 'Fri, 04 Apr 2014 06:49:19 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+27 silly registry.get     etag: '"9LSSVDUA35NAIFKZMWMQVL1IN"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     'cache-control': 'max-age=1',
+27 silly registry.get     'content-length': '60303',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     age: '9126',
+27 silly registry.get     'x-served-by': 'cache-v36-ASH, cache-sv63-SJC3',
+27 silly registry.get     'x-cache': 'MISS, MISS',
+27 silly registry.get     'x-cache-hits': '0, 0',
+27 silly registry.get     'x-timer': 'S1396594158.841707945,VS0,VS36,VE124,VE162',
+27 silly registry.get     vary: 'Accept',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly addNameRange number 2 { name: 'node-curl', range: '*', hasData: true }
+29 silly addNameRange versions [ 'node-curl',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.1.4',
+29 silly addNameRange     '0.1.5',
+29 silly addNameRange     '0.1.6',
+29 silly addNameRange     '0.1.7',
+29 silly addNameRange     '0.1.8',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.2.1',
+29 silly addNameRange     '0.2.2',
+29 silly addNameRange     '0.2.3',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1' ] ]
+30 verbose addNamed [ 'node-curl', '0.3.1' ]
+31 verbose addNamed [ '0.3.1', '0.3.1' ]
+32 silly lockFile efd00346-node-curl-0-3-1 node-curl@0.3.1
+33 verbose lock node-curl@0.3.1 C:\Users\rikitas\AppData\Roaming\npm-cache\efd00346-node-curl-0-3-1.lock
+34 silly lockFile 5f74afde-rg-node-curl-node-curl-0-3-1-tgz https://registry.npmjs.org/node-curl/-/node-curl-0.3.1.tgz
+35 verbose lock https://registry.npmjs.org/node-curl/-/node-curl-0.3.1.tgz C:\Users\rikitas\AppData\Roaming\npm-cache\5f74afde-rg-node-curl-node-curl-0-3-1-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-curl/-/node-curl-0.3.1.tgz',
+36 verbose addRemoteTarball   '9c51949c6dc4f7d3e8003b26817feeb53ec33819' ]
+37 info retry fetch attempt 1 at 12:18:10
+38 verbose fetch to= C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\tmp.tgz
+39 http GET https://registry.npmjs.org/node-curl/-/node-curl-0.3.1.tgz
+40 http 200 https://registry.npmjs.org/node-curl/-/node-curl-0.3.1.tgz
+41 verbose tar unpack C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\tmp.tgz
+42 silly lockFile 481ef8a0-977-0-039615806424990296-package tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package
+43 verbose lock tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package C:\Users\rikitas\AppData\Roaming\npm-cache\481ef8a0-977-0-039615806424990296-package.lock
+44 silly lockFile 1b201924-977-0-039615806424990296-tmp-tgz tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\tmp.tgz
+45 verbose lock tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\tmp.tgz C:\Users\rikitas\AppData\Roaming\npm-cache\1b201924-977-0-039615806424990296-tmp-tgz.lock
+46 silly gunzTarPerm modes [ '755', '644' ]
+47 silly gunzTarPerm extractEntry package.json
+48 silly gunzTarPerm extractEntry .npmignore
+49 silly gunzTarPerm extractEntry README.md
+50 silly gunzTarPerm extractEntry index.js
+51 silly gunzTarPerm extractEntry wscript
+52 silly gunzTarPerm extractEntry examples/low-level-pressure.js
+53 silly gunzTarPerm extractEntry examples/curl.js
+54 silly gunzTarPerm extractEntry examples/post-multi-part.js
+55 silly gunzTarPerm extractEntry examples/test-stream.js
+56 silly gunzTarPerm extractEntry examples/post.js
+57 silly gunzTarPerm extractEntry examples/test-errors.js
+58 silly gunzTarPerm extractEntry examples/pressure.js
+59 silly gunzTarPerm extractEntry examples/test.js
+60 silly gunzTarPerm extractEntry examples/pressure-multi-post.js
+61 silly gunzTarPerm extractEntry examples/test-get-info.js
+62 silly gunzTarPerm extractEntry examples/low-level.js
+63 silly gunzTarPerm extractEntry examples/quick-start.js
+64 silly gunzTarPerm extractEntry examples/test-errors.toffee
+65 silly gunzTarPerm extractEntry examples/post-multi-part.toffee
+66 silly gunzTarPerm extractEntry examples/pressure-multi-post.toffee
+67 silly gunzTarPerm extractEntry examples/curl.toffee
+68 silly gunzTarPerm extractEntry examples/test-stream.toffee
+69 silly gunzTarPerm extractEntry examples/pressure.toffee
+70 silly gunzTarPerm extractEntry examples/post.toffee
+71 silly gunzTarPerm extractEntry examples/test.toffee
+72 silly gunzTarPerm extractEntry LICENSE-MIT
+73 silly gunzTarPerm extractEntry .travis.yml
+74 silly gunzTarPerm extractEntry index.toffee
+75 silly gunzTarPerm extractEntry src/node-curl.h
+76 silly gunzTarPerm extractEntry src/generate_curl_options_list.sh
+77 silly gunzTarPerm extractEntry src/node-curl.cc
+78 silly gunzTarPerm extractEntry binding.gyp
+79 silly gunzTarPerm extractEntry lib/CurlBuilder.js
+80 silly gunzTarPerm extractEntry lib/Curl.js
+81 silly gunzTarPerm extractEntry lib/Curl.toffee
+82 silly gunzTarPerm extractEntry lib/CurlBuilder.toffee
+83 silly lockFile 481ef8a0-977-0-039615806424990296-package tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package
+84 silly lockFile 481ef8a0-977-0-039615806424990296-package tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package
+85 silly lockFile 1b201924-977-0-039615806424990296-tmp-tgz tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\tmp.tgz
+86 silly lockFile 1b201924-977-0-039615806424990296-tmp-tgz tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\tmp.tgz
+87 verbose tar pack [ 'C:\\Users\\rikitas\\AppData\\Roaming\\npm-cache\\node-curl\\0.3.1\\package.tgz',
+87 verbose tar pack   'C:\\Users\\rikitas\\AppData\\Local\\Temp\\npm-4936-JF758_5v\\1396594090977-0.039615806424990296\\package' ]
+88 verbose tarball C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+89 verbose folder C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package
+90 silly lockFile 481ef8a0-977-0-039615806424990296-package tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package
+91 verbose lock tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package C:\Users\rikitas\AppData\Roaming\npm-cache\481ef8a0-977-0-039615806424990296-package.lock
+92 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+93 verbose lock tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz C:\Users\rikitas\AppData\Roaming\npm-cache\58f67161-ache-node-curl-0-3-1-package-tgz.lock
+94 silly lockFile 481ef8a0-977-0-039615806424990296-package tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package
+95 silly lockFile 481ef8a0-977-0-039615806424990296-package tar://C:\Users\rikitas\AppData\Local\Temp\npm-4936-JF758_5v\1396594090977-0.039615806424990296\package
+96 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+97 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+98 silly lockFile d3cd283e-pm-cache-node-curl-0-3-1-package C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package
+99 verbose lock C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package C:\Users\rikitas\AppData\Roaming\npm-cache\d3cd283e-pm-cache-node-curl-0-3-1-package.lock
+100 silly lockFile d3cd283e-pm-cache-node-curl-0-3-1-package C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package
+101 silly lockFile d3cd283e-pm-cache-node-curl-0-3-1-package C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package
+102 verbose tar unpack C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+103 silly lockFile bf1db3cc-pm-cache-node-curl-0-3-1-package tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package
+104 verbose lock tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package C:\Users\rikitas\AppData\Roaming\npm-cache\bf1db3cc-pm-cache-node-curl-0-3-1-package.lock
+105 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+106 verbose lock tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz C:\Users\rikitas\AppData\Roaming\npm-cache\58f67161-ache-node-curl-0-3-1-package-tgz.lock
+107 silly gunzTarPerm modes [ '755', '644' ]
+108 silly gunzTarPerm extractEntry package.json
+109 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+110 silly gunzTarPerm extractEntry .npmignore
+111 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+112 silly gunzTarPerm extractEntry README.md
+113 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+114 silly gunzTarPerm extractEntry index.js
+115 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+116 silly gunzTarPerm extractEntry binding.gyp
+117 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+118 silly gunzTarPerm extractEntry examples/curl.js
+119 silly gunzTarPerm modified mode [ 'examples/curl.js', 438, 420 ]
+120 silly gunzTarPerm extractEntry examples/low-level.js
+121 silly gunzTarPerm modified mode [ 'examples/low-level.js', 438, 420 ]
+122 silly gunzTarPerm extractEntry examples/post-multi-part.js
+123 silly gunzTarPerm modified mode [ 'examples/post-multi-part.js', 438, 420 ]
+124 silly gunzTarPerm extractEntry examples/test.js
+125 silly gunzTarPerm modified mode [ 'examples/test.js', 438, 420 ]
+126 silly gunzTarPerm extractEntry examples/low-level-pressure.js
+127 silly gunzTarPerm modified mode [ 'examples/low-level-pressure.js', 438, 420 ]
+128 silly gunzTarPerm extractEntry examples/test-stream.js
+129 silly gunzTarPerm modified mode [ 'examples/test-stream.js', 438, 420 ]
+130 silly gunzTarPerm extractEntry examples/pressure-multi-post.js
+131 silly gunzTarPerm modified mode [ 'examples/pressure-multi-post.js', 438, 420 ]
+132 silly gunzTarPerm extractEntry examples/test-get-info.js
+133 silly gunzTarPerm modified mode [ 'examples/test-get-info.js', 438, 420 ]
+134 silly gunzTarPerm extractEntry examples/test-errors.js
+135 silly gunzTarPerm modified mode [ 'examples/test-errors.js', 438, 420 ]
+136 silly gunzTarPerm extractEntry examples/quick-start.js
+137 silly gunzTarPerm modified mode [ 'examples/quick-start.js', 438, 420 ]
+138 silly gunzTarPerm extractEntry examples/post.js
+139 silly gunzTarPerm modified mode [ 'examples/post.js', 438, 420 ]
+140 silly gunzTarPerm extractEntry examples/pressure.js
+141 silly gunzTarPerm modified mode [ 'examples/pressure.js', 438, 420 ]
+142 silly gunzTarPerm extractEntry examples/pressure.toffee
+143 silly gunzTarPerm modified mode [ 'examples/pressure.toffee', 438, 420 ]
+144 silly gunzTarPerm extractEntry examples/curl.toffee
+145 silly gunzTarPerm modified mode [ 'examples/curl.toffee', 438, 420 ]
+146 silly gunzTarPerm extractEntry examples/test-errors.toffee
+147 silly gunzTarPerm modified mode [ 'examples/test-errors.toffee', 438, 420 ]
+148 silly gunzTarPerm extractEntry examples/pressure-multi-post.toffee
+149 silly gunzTarPerm modified mode [ 'examples/pressure-multi-post.toffee', 438, 420 ]
+150 silly gunzTarPerm extractEntry examples/post.toffee
+151 silly gunzTarPerm modified mode [ 'examples/post.toffee', 438, 420 ]
+152 silly gunzTarPerm extractEntry examples/test-stream.toffee
+153 silly gunzTarPerm modified mode [ 'examples/test-stream.toffee', 438, 420 ]
+154 silly gunzTarPerm extractEntry examples/post-multi-part.toffee
+155 silly gunzTarPerm modified mode [ 'examples/post-multi-part.toffee', 438, 420 ]
+156 silly gunzTarPerm extractEntry examples/test.toffee
+157 silly gunzTarPerm modified mode [ 'examples/test.toffee', 438, 420 ]
+158 silly gunzTarPerm extractEntry .travis.yml
+159 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+160 silly gunzTarPerm extractEntry index.toffee
+161 silly gunzTarPerm modified mode [ 'index.toffee', 438, 420 ]
+162 silly gunzTarPerm extractEntry lib/Curl.js
+163 silly gunzTarPerm modified mode [ 'lib/Curl.js', 438, 420 ]
+164 silly gunzTarPerm extractEntry lib/CurlBuilder.js
+165 silly gunzTarPerm modified mode [ 'lib/CurlBuilder.js', 438, 420 ]
+166 silly gunzTarPerm extractEntry lib/Curl.toffee
+167 silly gunzTarPerm modified mode [ 'lib/Curl.toffee', 438, 420 ]
+168 silly gunzTarPerm extractEntry lib/CurlBuilder.toffee
+169 silly gunzTarPerm modified mode [ 'lib/CurlBuilder.toffee', 438, 420 ]
+170 silly gunzTarPerm extractEntry LICENSE-MIT
+171 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+172 silly gunzTarPerm extractEntry src/generate_curl_options_list.sh
+173 silly gunzTarPerm modified mode [ 'src/generate_curl_options_list.sh', 438, 420 ]
+174 silly gunzTarPerm extractEntry src/node-curl.cc
+175 silly gunzTarPerm modified mode [ 'src/node-curl.cc', 438, 420 ]
+176 silly gunzTarPerm extractEntry src/node-curl.h
+177 silly gunzTarPerm modified mode [ 'src/node-curl.h', 438, 420 ]
+178 silly gunzTarPerm extractEntry wscript
+179 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+180 silly lockFile bf1db3cc-pm-cache-node-curl-0-3-1-package tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package
+181 silly lockFile bf1db3cc-pm-cache-node-curl-0-3-1-package tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package
+182 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+183 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+184 verbose chmod C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz 644
+185 silly chown skipping for windows C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+186 silly lockFile 5f74afde-rg-node-curl-node-curl-0-3-1-tgz https://registry.npmjs.org/node-curl/-/node-curl-0.3.1.tgz
+187 silly lockFile 5f74afde-rg-node-curl-node-curl-0-3-1-tgz https://registry.npmjs.org/node-curl/-/node-curl-0.3.1.tgz
+188 silly lockFile efd00346-node-curl-0-3-1 node-curl@0.3.1
+189 silly lockFile efd00346-node-curl-0-3-1 node-curl@0.3.1
+190 silly lockFile a3954c3c-node-curl node-curl@
+191 silly lockFile a3954c3c-node-curl node-curl@
+192 silly resolved [ { name: 'node-curl',
+192 silly resolved     version: '0.3.1',
+192 silly resolved     author: { name: 'Jiang Miao', email: 'jiangfriend@gmail.com' },
+192 silly resolved     description: 'node wrapper for multi curl, fully implemented.',
+192 silly resolved     keywords: [ 'node-curl', 'curl', 'multi-curl', 'mcurl' ],
+192 silly resolved     homepage: 'http://github.com/jiangmiao/node-curl',
+192 silly resolved     repository: { type: 'git', url: 'git://github.com/jiangmiao/node-curl.git' },
+192 silly resolved     main: './lib',
+192 silly resolved     scripts: { install: 'sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)' },
+192 silly resolved     engines: { node: '>= 0.6.0' },
+192 silly resolved     readme: 'node-curl [![Build Status](https://secure.travis-ci.org/jiangmiao/node-curl.png?branch=master)](http://travis-ci.org/jiangmiao/node-curl)\n=========\n\nnode cURL wrapper, support all options and infos.\n\nQuick Start\n-----------\n\n* quick start\n\n        curl = require(\'node-curl\');\n        curl(\'www.google.com\', function(err) {\n          console.info(this.status);\n          console.info(\'-----\');\n          console.info(this.body);\n          console.info(\'-----\');\n          console.info(this.info(\'SIZE_DOWNLOAD\'));\n        });\n\n\n* with options\n\n        curl = require(\'node-curl\')\n        curl(\'www.google.com\', {VERBOSE: 1, RAW: 1}, function(err) {\n          console.info(this);\n        });\n\n* run the example/test.js\n\n        node examples/test.js\n\nUsage\n-----\n\n* curl\n\n        curl(url, [options = {}], callback)\n        callback includes 1 parameters (error)\n        result is stored in curl\n\n* Retrieve Data from curl\n\n        members:\n          status           - Http Response code\n          body             - Http body\n\n          url              - the url set by curl(...)\n          options          - the options set by curl(...)\n          defaultOptions   - the defaultOptions\n          effectiveOptions - the options curl used\n\n        methods:\n          info(name) - Get information of result, see \'info\' section\n\n* Curl Control\n\n        members\n            debug (default: false)\n                - logging node-curl debug info\n\n        methods:\n            void reset()\n                - reset curl and set options to default options\n\n            void setDefaultOptions(options, reset = true)\n                - set default options\n\n            curl create(defaultOptions)\n                - create a new curl with default options\n\nOptions\n-------\n* Any cURL Easy Options\n\n        eg: CURLOPT_VERBOSE will be VERBOSE, CURLOPT_HEADER will be HEADER\n\n        Full list at http://curl.haxx.se/libcurl/c/curl_easy_setopt.html\n\n* node-curl Extra Options\n\n        RAW   - Returns Buffer instead of String in result.body\n        DEBUG - Replace curl.debug\n\n* About slist parameters\n\n        node-curl support slist which map to Javascript Array\n\n        eg:\n            HTTP_HEADER: [\'FOO\', \'BAR\']\n            HTTP_HEADER: \'FOO\'\n\n            any non-array parameter will convert to [ parameter.toString() ]\n\nInfos\n-----\n* Any cURL Info options\n\n        eg: CURLINFO_EFFECTIVE_URL will be EFFETCTIVE_URL\n\n        full list at http://curl.haxx.se/libcurl/c/curl_easy_getinfo.html\n\n\n* About slist\n\n          slist will be returns in Array\n          eg: CURLINFO_COOKIELIST\n\nMultiPart Upload\n----------------\nUse MULTIPART option\n\nThere are 4 options in MULTIPART, `name`, `file`, `type`, `contents`\n\n```javascript\ncurl(\'127.0.0.1/upload.php\', {\n    MULTIPART: [\n        {name: \'file\', file: \'/file/path\', type: \'text/html\'},\n        {name: \'sumbit\', contents: \'send\'}\n    ]\n}, function(e) {\n    console.log(e);\n    console.log(this.body);\n    this.close()\n});\n```\n\nLow Level Curl Usage\n--------------------\n\nrequire \'node-curl/lib/Curl\'\n\nMethods:\n\n    Curl setopt(optionName, optionValue)\n    Curl perform()\n    Curl on(eventType, callback)\n    Mixed getinfo(infoName)\n\nEvents:\n\n    \'data\', function(Buffer chunk) {}\n    \'error\', function(Error error) {}\n    \'end\', function() {}\n\nExample: examples/low-level.js\n\n    var Curl = require(\'node-curl/lib/Curl\')\n\n    var p = console.log;\n    var url = process.argv[2];\n\n    var curl = new Curl();\n\n    if (!url)\n        url = \'www.yahoo.com\';\n\n    curl.setopt(\'URL\', url);\n    curl.setopt(\'CONNECTTIMEOUT\', 2);\n\n    // on \'data\' must be returns chunk.length, or means interrupt the transfer\n    curl.on(\'data\', function(chunk) {\n        p("receive " + chunk.length)\n        return chunk.length;\n    });\n\n    // curl.close() should be called in event \'error\' and \'end\' if the curl won\'t use any more.\n    // or the resource will not release until V8 garbage mark sweep.\n    curl.on(\'error\', function(e) {\n        p("error: " + e.message)\n        curl.close();\n    });\n\n\n    curl.on(\'end\', function() {\n        p(\'code: \' + curl.getinfo(\'RESPONSE_CODE\'));\n        p(\'done.\')\n        curl.close();\n    });\n\n    curl.perform();\n',
+192 silly resolved     readmeFilename: 'README.md',
+192 silly resolved     bugs: { url: 'https://github.com/jiangmiao/node-curl/issues' },
+192 silly resolved     _id: 'node-curl@0.3.1',
+192 silly resolved     dist: { shasum: '748cf65c9d4f4d5335c40c07e449a4fe1a02450c' },
+192 silly resolved     _from: 'node-curl@',
+192 silly resolved     _resolved: 'https://registry.npmjs.org/node-curl/-/node-curl-0.3.1.tgz' } ]
+193 info install node-curl@0.3.1 into C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin
+194 info installOne node-curl@0.3.1
+195 info C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules\node-curl unbuild
+196 verbose tar unpack C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+197 silly lockFile 69db0594-Mongoskin-node-modules-node-curl tar://C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules\node-curl
+198 verbose lock tar://C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules\node-curl C:\Users\rikitas\AppData\Roaming\npm-cache\69db0594-Mongoskin-node-modules-node-curl.lock
+199 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+200 verbose lock tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz C:\Users\rikitas\AppData\Roaming\npm-cache\58f67161-ache-node-curl-0-3-1-package-tgz.lock
+201 silly gunzTarPerm modes [ '755', '644' ]
+202 silly gunzTarPerm extractEntry package.json
+203 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+204 silly gunzTarPerm extractEntry .npmignore
+205 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+206 silly gunzTarPerm extractEntry README.md
+207 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+208 silly gunzTarPerm extractEntry index.js
+209 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+210 silly gunzTarPerm extractEntry binding.gyp
+211 silly gunzTarPerm modified mode [ 'binding.gyp', 438, 420 ]
+212 silly gunzTarPerm extractEntry examples/curl.js
+213 silly gunzTarPerm modified mode [ 'examples/curl.js', 438, 420 ]
+214 silly gunzTarPerm extractEntry examples/low-level.js
+215 silly gunzTarPerm modified mode [ 'examples/low-level.js', 438, 420 ]
+216 silly gunzTarPerm extractEntry examples/post-multi-part.js
+217 silly gunzTarPerm modified mode [ 'examples/post-multi-part.js', 438, 420 ]
+218 silly gunzTarPerm extractEntry examples/test.js
+219 silly gunzTarPerm modified mode [ 'examples/test.js', 438, 420 ]
+220 silly gunzTarPerm extractEntry examples/low-level-pressure.js
+221 silly gunzTarPerm modified mode [ 'examples/low-level-pressure.js', 438, 420 ]
+222 silly gunzTarPerm extractEntry examples/test-stream.js
+223 silly gunzTarPerm modified mode [ 'examples/test-stream.js', 438, 420 ]
+224 silly gunzTarPerm extractEntry examples/pressure-multi-post.js
+225 silly gunzTarPerm modified mode [ 'examples/pressure-multi-post.js', 438, 420 ]
+226 silly gunzTarPerm extractEntry examples/test-get-info.js
+227 silly gunzTarPerm modified mode [ 'examples/test-get-info.js', 438, 420 ]
+228 silly gunzTarPerm extractEntry examples/test-errors.js
+229 silly gunzTarPerm modified mode [ 'examples/test-errors.js', 438, 420 ]
+230 silly gunzTarPerm extractEntry examples/quick-start.js
+231 silly gunzTarPerm modified mode [ 'examples/quick-start.js', 438, 420 ]
+232 silly gunzTarPerm extractEntry examples/post.js
+233 silly gunzTarPerm modified mode [ 'examples/post.js', 438, 420 ]
+234 silly gunzTarPerm extractEntry examples/pressure.js
+235 silly gunzTarPerm modified mode [ 'examples/pressure.js', 438, 420 ]
+236 silly gunzTarPerm extractEntry examples/pressure.toffee
+237 silly gunzTarPerm modified mode [ 'examples/pressure.toffee', 438, 420 ]
+238 silly gunzTarPerm extractEntry examples/curl.toffee
+239 silly gunzTarPerm modified mode [ 'examples/curl.toffee', 438, 420 ]
+240 silly gunzTarPerm extractEntry examples/test-errors.toffee
+241 silly gunzTarPerm modified mode [ 'examples/test-errors.toffee', 438, 420 ]
+242 silly gunzTarPerm extractEntry examples/pressure-multi-post.toffee
+243 silly gunzTarPerm modified mode [ 'examples/pressure-multi-post.toffee', 438, 420 ]
+244 silly gunzTarPerm extractEntry examples/post.toffee
+245 silly gunzTarPerm modified mode [ 'examples/post.toffee', 438, 420 ]
+246 silly gunzTarPerm extractEntry examples/test-stream.toffee
+247 silly gunzTarPerm modified mode [ 'examples/test-stream.toffee', 438, 420 ]
+248 silly gunzTarPerm extractEntry examples/post-multi-part.toffee
+249 silly gunzTarPerm modified mode [ 'examples/post-multi-part.toffee', 438, 420 ]
+250 silly gunzTarPerm extractEntry examples/test.toffee
+251 silly gunzTarPerm modified mode [ 'examples/test.toffee', 438, 420 ]
+252 silly gunzTarPerm extractEntry .travis.yml
+253 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+254 silly gunzTarPerm extractEntry index.toffee
+255 silly gunzTarPerm modified mode [ 'index.toffee', 438, 420 ]
+256 silly gunzTarPerm extractEntry lib/Curl.js
+257 silly gunzTarPerm modified mode [ 'lib/Curl.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry lib/CurlBuilder.js
+259 silly gunzTarPerm modified mode [ 'lib/CurlBuilder.js', 438, 420 ]
+260 silly gunzTarPerm extractEntry lib/Curl.toffee
+261 silly gunzTarPerm modified mode [ 'lib/Curl.toffee', 438, 420 ]
+262 silly gunzTarPerm extractEntry lib/CurlBuilder.toffee
+263 silly gunzTarPerm modified mode [ 'lib/CurlBuilder.toffee', 438, 420 ]
+264 silly gunzTarPerm extractEntry LICENSE-MIT
+265 silly gunzTarPerm modified mode [ 'LICENSE-MIT', 438, 420 ]
+266 silly gunzTarPerm extractEntry src/generate_curl_options_list.sh
+267 silly gunzTarPerm modified mode [ 'src/generate_curl_options_list.sh', 438, 420 ]
+268 silly gunzTarPerm extractEntry src/node-curl.cc
+269 silly gunzTarPerm modified mode [ 'src/node-curl.cc', 438, 420 ]
+270 silly gunzTarPerm extractEntry src/node-curl.h
+271 silly gunzTarPerm modified mode [ 'src/node-curl.h', 438, 420 ]
+272 silly gunzTarPerm extractEntry wscript
+273 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+274 silly lockFile 69db0594-Mongoskin-node-modules-node-curl tar://C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules\node-curl
+275 silly lockFile 69db0594-Mongoskin-node-modules-node-curl tar://C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules\node-curl
+276 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+277 silly lockFile 58f67161-ache-node-curl-0-3-1-package-tgz tar://C:\Users\rikitas\AppData\Roaming\npm-cache\node-curl\0.3.1\package.tgz
+278 info preinstall node-curl@0.3.1
+279 verbose readDependencies using package.json deps
+280 verbose readDependencies using package.json deps
+281 silly resolved []
+282 verbose about to build C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules\node-curl
+283 info build C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules\node-curl
+284 verbose linkStuff [ false,
+284 verbose linkStuff   false,
+284 verbose linkStuff   false,
+284 verbose linkStuff   'C:\\04-Interfacing with Databases\\04-Interfacing with Databases\\17-Storing and Retrieving Data with Mongoskin\\node_modules' ]
+285 info linkStuff node-curl@0.3.1
+286 verbose linkBins node-curl@0.3.1
+287 verbose linkMans node-curl@0.3.1
+288 verbose rebuildBundles node-curl@0.3.1
+289 info install node-curl@0.3.1
+290 verbose unsafe-perm in lifecycle true
+291 info node-curl@0.3.1 Failed to exec install script
+292 info C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules\node-curl unbuild
+293 info preuninstall node-curl@0.3.1
+294 info uninstall node-curl@0.3.1
+295 verbose true,C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules,C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin\node_modules unbuild node-curl@0.3.1
+296 info postuninstall node-curl@0.3.1
+297 error node-curl@0.3.1 install: `sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)`
+297 error Exit status 1
+298 error Failed at the node-curl@0.3.1 install script.
+298 error This is most likely a problem with the node-curl package,
+298 error not with npm itself.
+298 error Tell the author that this fails on your system:
+298 error     sh src/generate_curl_options_list.sh && (node-gyp rebuild || node-waf configure build)
+298 error You can get their info via:
+298 error     npm owner ls node-curl
+298 error There is likely additional logging output above.
+299 error System Windows_NT 6.1.7601
+300 error command "D:\\nodejs\\\\node.exe" "D:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "node-curl"
+301 error cwd C:\04-Interfacing with Databases\04-Interfacing with Databases\17-Storing and Retrieving Data with Mongoskin
+302 error node -v v0.10.26
+303 error npm -v 1.4.3
+304 error code ELIFECYCLE
+305 verbose exit [ 1, true ]

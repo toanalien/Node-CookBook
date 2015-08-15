@@ -1,0 +1,10 @@
+{
+  "name": "NCB2",
+  "version": "2.0.0",
+  "author": "David Mark Clements",
+  "license": "BSD",
+  "readmeFilename": "README",
+  "dependencies": {
+    "xml2js": "~0.4.1"
+  }
+}

@@ -1,0 +1,14 @@
+mixin del(id)
+  td
+    a.del(href='/admin/del?id=#{id}&p=#{page}')
+      &#10754;
+
+mixin add
+  #ctrl
+    a#add(href='#') &oplus;
+
+mixin adminScript
+  include adminScript
+
+include addfrm
+    

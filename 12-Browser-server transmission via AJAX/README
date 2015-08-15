@@ -1,0 +1,19 @@
+In this folder:
+
+
+server.js: serves portions of the profiles object as XML or JSON
+
+index.html: client side compliment to server.js request portions of
+            the profiles object, as XML or JSON
+
+add_profile_server.js: As server.js, but with added functionality of
+                       receiving JSON/XML to add new profiles
+
+add_profile_index.html: As index.html but compliments add_profile_server.js
+                        and includes methods to add new profiles remotely
+
+buildXml.js: holds a function that serializes an object into XML, which is
+             loaded into module.exports for later requiring
+             
+profiles.js: holds an object of profiles of certain Node community members
+             which is loaded into module.exports so it can be required

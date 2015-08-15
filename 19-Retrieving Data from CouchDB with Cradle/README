@@ -1,0 +1,8 @@
+In this folder:
+
+quotes.js: Using Cradle, creates and connects to a CouchDB database (called quotes), and provides a command line
+           interface for inserting quotes, and for finding quotes by author
+
+           
+database_lockdown.js: Using Cradle, saves a validate_doc_update function as CouchDB _design document, which prevents
+                      non-admin users from making any changes to the quotes database

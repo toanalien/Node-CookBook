@@ -1,0 +1,20 @@
+In this folder:
+
+nca:    Building on the altered Express app with Jade templating from the previous recipe,
+        adds CSS to the generated HTML using the language of the Stylus CSS Engine
+
+nca_LESS: As nca, but alternatively uses the LESS CSS engine
+
+nca_stylus_colors: Demonstrating how to use the various color functions available to Stylus
+
+nca_stylus_tdcorners: Using a variety of Stylus features to implement rounded corners on the
+                      top, bottom, right and left TD elements of the generated profiles table
+                      so that only the corresponding corner is rounded, matching the outer rounded
+                      border. 
+                      
+
+       
+
+
+
+

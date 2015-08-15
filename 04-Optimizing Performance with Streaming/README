@@ -1,0 +1,12 @@
+In this folder:
+
+server.js : A static file streaming server 
+memory_overflow_protection_server.js : Streaming file server with priotized self-cleaning caching
+
+content:
+  index.html : example html file to be served
+  styles.css : example css file to be served
+  script.js  : example script file to be served
+  50meg : 50mb file generated for testing purposes
+  
+content folder is used by server.js, memory_overflow_protection_server.js

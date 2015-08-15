@@ -1,0 +1,8 @@
+express_virtual_hosting: 
+
+  server.js: an Express app that uses express.vhost to virtually host child Express apps, 
+             presenting them to the client depending upon the specified hostname
+
+  mappings.js: exports an object containing Express apps mapped to each hostname
+
+  sites: contains Express app project folders for each hostname (localhost-site and nodecookbook)  

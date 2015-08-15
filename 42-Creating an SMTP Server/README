@@ -1,0 +1,19 @@
+In this folder:
+
+server.js:  a internal SMTP server with authorization processes that will recieve emails on the local system
+
+mailout.js: originally from the first recipe, but adapted to be the counterpart to server.js, 
+            we use mailout to email a list of local mailboxes through the server.js SMTP server
+            
+mx_smtp.js: For use on a live server, exposed to the internet. A domain (for instance nodecookbook.com)
+            must have it's MX records configured to point at the live server, and then mx_smtp.js will
+            recieve and store emails sent to that domain (e.g. bob@nodecookbook.com).
+
+mailboxes: a directory containing mailboxes of email email recipients
+
+mailboxes/caught: a catch all file for any emails recieved that have no mailbox, as used by server.js and mx_smtp.js
+
+mailboxes/[bob,bib,susie]: recipient mailboxes containing emails as recieved by server.js/mx_smtp.js
+
+
+         

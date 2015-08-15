@@ -1,0 +1,30 @@
+In this folder:
+
+server.js: a very basic HTTP server purely for the purpose of hosting index.html in order
+           provide a hostname (localhost and 127.0.0.1) that can be tested against widget.js
+           
+index.html: very simple html file, that loads and initializes the real-time widget
+
+widget.js: provides a live online counter for a website, emitting total connections to a site
+           with the ability to serve multiple sites, also exposes the widget_client.js code
+           concatenated with socket.io.js code for easy, customized script loading.
+
+widget_client.js: client side Javascript, a modular widget that hooks up to the widget.js
+                  socket.io server and recieves total counts for sites - is later read into
+                  widget.js and concanated with socket.io.js, to be loaded as once script
+                  into index.html
+
+scalable_redis_widget.js: as widget_client.js but with improved memory storage for total 
+                          counts in preparation to scale accross multiple servers
+                          
+watcher:
+  server.js: copied and untouched from Recipe 2, Serving static files
+  watcher.js: watches the content directory for changes, and then emits an update
+              Socket.io event, which is picked up by the browser and causes a refresh.
+              Directly provides the client side code to the browser.
+  content:
+    index.html: copied from Recipe 2, Serving static files, altered for testing of watcher.js
+    script.js: copied from Recipe 2, unaltered
+    styles.css: copied from Recipe 2, Serving static files, altered for testing of watcher.js
+
+

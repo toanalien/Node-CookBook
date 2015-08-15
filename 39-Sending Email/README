@@ -1,0 +1,12 @@
+In this folder:
+
+mailout.js:  Sends a newsletter to a mailing list using the Nodemailer module
+
+mailout_html.js: As mailout.js but with HTML email
+
+mailout_sendmail.js: As mailout.js but uses the systems sendmail agent instead of a remote SMTP server
+
+mailout_attachments.js: Send's a single email with txt file and JPG attachments
+
+deer.jpg: Used by mailout_attachments.js as the JPG attachment, photo kindly donated by photographer Gavin Knox 
+          Gavins Facebook profile (http://www.facebook.com/profile.php?id=1094298216&ref=ts)

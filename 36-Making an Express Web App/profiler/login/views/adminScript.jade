@@ -1,0 +1,18 @@
+script(src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js')    
+script.
+  document.getElementsByTagName('body')[0].id = 'js';
+  
+  $('#add').click(function (e) {
+    e.preventDefault();
+    $('#profiles, #ctrl').fadeOut(function () {
+      $('#addfrm').fadeIn();       
+    });
+  });
+  
+  $('#addfrm .cancel').click(function () {
+    $('#addfrm').fadeOut(function () {
+      $('#profiles, #ctrl').fadeIn();       
+    });
+  });
+  
+

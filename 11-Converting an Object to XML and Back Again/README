@@ -1,0 +1,14 @@
+In this folder:
+
+xml_and_back.js: converts an object to XML and back again
+
+attributes_and_text.js: converts an enhanced object to XML with attributes and text nodes
+
+partial_app.js: demonstrates a clean way to encapsulate options instead or
+				reapplying them for every call
+
+profiles.js: counterpart module object to xml_and_back.js, also used in partial_app.js
+
+profiles_enhanced.js counterpart module object to attributes_and_text.js, also used in partial_app.js
+
+
